@@ -24,6 +24,27 @@ The LLM can compare the difference and find out the hacking logic behind, i.e. h
 `Generating a report in a tailored format using Reverse Prompt Engineering` : 
 https://medium.com/@miltonchan_85581/generating-a-report-in-a-tailored-format-using-reverse-prompt-engineering-16d1944a6413
 
+# Further optimization
+### User Feedback
+
+In real-time endpoint serving, users may report that the latency (waiting time) will be too long as the LLM may process for a few seconds, while the UI shows no response before the LLM completes processing, i.e. output __all the texts__.
+
+### Solution
+The Latency may lead to users dropping out. To fix this, we can adopt a streaming property which outputs the texts in chunks so the users can see the progress of loading and they will be more willing to wait.
+
+
+### Technical details
+By Setting ```stream=True```, LLM will output the texts in chunks
+
+``` python
+response = model.generate_content(bugreport_prompt ,
+                  generation_config=genai.types.GenerationConfig(temperature=0),
+                  safety_settings=safety_settings,
+                  stream=True  # output text in chunks 
+                 )
+for response in responses:
+    print(response.text, end="")
+```
 
 ### Example 1
 Before tools
