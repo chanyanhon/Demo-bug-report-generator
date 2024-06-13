@@ -46,7 +46,7 @@ for response in responses:
     print(response.text, end="")
 ```
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/chanyanhon/Demo-bug-report-generator/blob/main/screencap/LLM_streaming_output.mp4)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/chanyanhon/Demo-bug-report-generator/blob/main/screencap/LLM_streaming_output.gif)
 
 
 ## Bug Report Before & After using LLM tool
